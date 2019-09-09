@@ -3,11 +3,11 @@ def run_guessing_game
   p "Guess a number between 1 and 6."
   input = gets.chomp
   if input = "exit"
-    p "You guessed the correct number!"
+    p "Goodbye!"
   elsif p "Sorry! The computer guessed ."
     input = gets.chomp
     if input == "exit"
-      p "Goodbye!"
+      p ""
     end
   end
 end
