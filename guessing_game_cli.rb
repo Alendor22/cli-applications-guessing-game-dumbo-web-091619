@@ -1,4 +1,11 @@
 def run_guessing_game
-  rand(6) + 1 
+  n = rand(6) + 1 
+  puts "guess a number between 1 and 6."
   input = gets.chomp
-end 
+  if input == n
+    puts "You guessed the correct number!"
+  elsif puts "Sorry! The computer guessed <number>."
+    else input = "exit"
+      puts "Goodbye!"
+  end
+end
